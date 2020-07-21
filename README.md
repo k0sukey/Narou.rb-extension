@@ -10,6 +10,14 @@
 - [Narou.rb Docker Image](https://github.com/whiteleaf7/narou-docker) でコンテナを起動すると楽です
 - WEB UI をデフォルト以外のポートで起動している場合は、「拡張機能のオプション」から設定してください
 
+## インストール
+
+1. `$ git clone git@github.com:k0sukey/Narou.rb-extension.git` します。[Zip](https://github.com/k0sukey/Narou.rb-extension/archive/master.zip) をダウンロードしても OK です
+2. [chrome://extensions/](chrome://extensions/) を開きます
+3. デベロッパーモードを ON にします
+4. 「パッケージ化されていない拡張機能」をクリック
+5. `Narou.rb-extension/extension` を選択
+
 ## できること
 
 - 書籍の一括（個別）更新
