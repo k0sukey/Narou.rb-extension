@@ -2,7 +2,7 @@
   "name": "Narou.rb extension",
   "version": "1.0.0",
   "description": "Narou.rb を拡張機能経由で使えるようになります。",
-  "homepage_url": "https://github.com/k0sukey",
+  "homepage_url": "https://github.com/k0sukey/Narou.rb-extension",
   "options_ui": {
     "page": "options.html",
     "chrome_style": false
