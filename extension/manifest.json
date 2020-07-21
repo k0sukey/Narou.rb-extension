@@ -1,0 +1,22 @@
+{
+  "name": "Narou.rb extension",
+  "version": "1.0.0",
+  "description": "Narou.rb を拡張機能経由で使えるようになります。",
+  "homepage_url": "https://github.com/k0sukey",
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": false
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Narou.rb extension",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": { "48": "icon.png" },
+  "permissions": ["contextMenus", "storage", "tabs", "<all_urls>"],
+  "manifest_version": 2
+}
